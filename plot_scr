@@ -1,0 +1,14 @@
+set terminal png size 1920, 1080
+set output 'plots/traj01.png' 
+plot 'results/0.1_brk2.dat' using 2:3 w lp lc 5 pt 7 ps 0.5 title "brk2",\
+ 'results/0.1_brk3.dat' using 2:3 w lp lc 7 pt 7 ps 0.5 title "brk3"
+
+set output 'plots/traj001.png' 
+plot 'results/0.01_rk4.dat' using 2:3 w lp lc 3 pt 7 ps 0.5 title "rk4",\
+ 'results/0.01_brk2.dat' using 2:3 w lp lc 5 pt 7 ps 0.5 title "brk2",\
+ 'results/0.01_brk3.dat' using 2:3 w lp lc 7 pt 7 ps 0.5 title "brk3"
+
+ 
+
+
+

@@ -1,0 +1,14 @@
+/home/marks/Runge-Kutta/bin/Debug/net8.0/Runge-Kutta
+/home/marks/Runge-Kutta/bin/Debug/net8.0/Runge-Kutta.deps.json
+/home/marks/Runge-Kutta/bin/Debug/net8.0/Runge-Kutta.runtimeconfig.json
+/home/marks/Runge-Kutta/bin/Debug/net8.0/Runge-Kutta.dll
+/home/marks/Runge-Kutta/bin/Debug/net8.0/Runge-Kutta.pdb
+/home/marks/Runge-Kutta/obj/Debug/net8.0/Runge-Kutta.GeneratedMSBuildEditorConfig.editorconfig
+/home/marks/Runge-Kutta/obj/Debug/net8.0/Runge-Kutta.AssemblyInfoInputs.cache
+/home/marks/Runge-Kutta/obj/Debug/net8.0/Runge-Kutta.AssemblyInfo.cs
+/home/marks/Runge-Kutta/obj/Debug/net8.0/Runge-Kutta.csproj.CoreCompileInputs.cache
+/home/marks/Runge-Kutta/obj/Debug/net8.0/Runge-Kutta.dll
+/home/marks/Runge-Kutta/obj/Debug/net8.0/refint/Runge-Kutta.dll
+/home/marks/Runge-Kutta/obj/Debug/net8.0/Runge-Kutta.pdb
+/home/marks/Runge-Kutta/obj/Debug/net8.0/Runge-Kutta.genruntimeconfig.cache
+/home/marks/Runge-Kutta/obj/Debug/net8.0/ref/Runge-Kutta.dll
