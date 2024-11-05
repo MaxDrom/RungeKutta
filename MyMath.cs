@@ -4,20 +4,20 @@ namespace Runge_Kutta;
 
 public static class MyMath
 {
-    
+
     public static int Factorial(int k)
     {
         var result = 1;
-        for(int i = 1; i<=k;i++)
+        for (int i = 1; i <= k; i++)
         {
-            result *=  i;
+            result *= i;
         }
         return result;
     }
     public static TField Root<TField>(TField x, int k)
         where TField : IFloatingPoint<TField>
     {
-        if(x == TField.Zero)
+        if (x == TField.Zero)
             return x;
         var result = x;
         var kf = TField.Zero;
@@ -42,6 +42,31 @@ public static class MyMath
         if (k < 0)
             return TField.One / RecursicePow(x, -k, cache);
         return RecursicePow(x, k, cache);
+    }
+
+    public static TField Sin<TField>(TField x)
+        where TField : IFloatingPoint<TField>
+    {
+        var two = TField.One+ TField.One;
+        if(TField.Abs(x)>= TField.One)
+        {
+            var s = Sin(x/two);
+            return two*s*Root(TField.One-s*s, 2);
+        }
+
+        var order = TField.One;
+        var stepval = x;
+        var res = TField.Zero;
+        var xx = x*x;
+        while(TField.CreateTruncating(TField.Abs(stepval)) != TField.Zero)
+        {
+            res+=stepval;
+            order++;
+            stepval *= xx/order;
+            order++;
+            stepval *=-TField.One/order;
+        }
+        return res;
     }
 
     private static TField RecursicePow<TField>(TField x, int k, Dictionary<int, TField> cache)

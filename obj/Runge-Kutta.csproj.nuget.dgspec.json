@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/marks/Runge-Kutta/Runge-Kutta.csproj": {}
+    "/home/marks/RungeKutta/Runge-Kutta.csproj": {}
   },
   "projects": {
-    "/home/marks/Runge-Kutta/Runge-Kutta.csproj": {
+    "/home/marks/RungeKutta/Runge-Kutta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/marks/Runge-Kutta/Runge-Kutta.csproj",
+        "projectUniqueName": "/home/marks/RungeKutta/Runge-Kutta.csproj",
         "projectName": "Runge-Kutta",
-        "projectPath": "/home/marks/Runge-Kutta/Runge-Kutta.csproj",
+        "projectPath": "/home/marks/RungeKutta/Runge-Kutta.csproj",
         "packagesPath": "/home/marks/.nuget/packages/",
-        "outputPath": "/home/marks/Runge-Kutta/obj/",
+        "outputPath": "/home/marks/RungeKutta/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/marks/.nuget/NuGet/NuGet.Config"
@@ -51,7 +51,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.8, 8.0.8]"
+              "version": "[8.0.10, 8.0.10]"
             }
           ],
           "frameworkReferences": {
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
